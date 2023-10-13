@@ -10,9 +10,6 @@ def main():
         else:
             string = sys.argv[1]
     elif len(sys.argv) == 1:
-        # display the input prompt that say "What is the text to count?"
-        # and wait for the user to enter a string
-        # then store the string in the variable string
         string = input("What is the text to count?\n")
     else:
         try:
