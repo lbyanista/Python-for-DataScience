@@ -8,4 +8,4 @@ def filter(function, iterable):
         function = bool
     for item in iterable:
         if function(item):
-            yield item      
+            yield item
